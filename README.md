@@ -53,7 +53,7 @@ _INFO_ - &nbsp;&nbsp;&nbsp;Image carousel with basic informations about Covid 19
 
 ![stats1](src/screenshots/stats1.png?raw=true) <br/><br/>
 ![stats2](src/screenshots/stats2.png?raw=true) <br/><br/>
-![stats3](src/screenshots/stats3_mobile.png?raw=true) <br/><br/>
+![stats3](src/screenshots/stats3.png?raw=true) <br/><br/>
 ![stats_mobile](src/screenshots/stats_mobile.png?raw=true) <br/><br/>
 
 ##### INFO

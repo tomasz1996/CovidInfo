@@ -1,0 +1,164 @@
+#ballsWaveG {
+  position: relative;
+  width: 90px;
+  height: 100%;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ballsWaveG {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 0, 0);
+  width: 11px;
+  height: 11px;
+  animation-name: ballsWaveG;
+  -o-animation-name: ballsWaveG;
+  -ms-animation-name: ballsWaveG;
+  -webkit-animation-name: ballsWaveG;
+  -moz-animation-name: ballsWaveG;
+  animation-duration: 0.585s;
+  -o-animation-duration: 0.585s;
+  -ms-animation-duration: 0.585s;
+  -webkit-animation-duration: 0.585s;
+  -moz-animation-duration: 0.585s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+}
+
+#ballsWaveG_1 {
+  left: 0;
+  animation-delay: 0.236s;
+  -o-animation-delay: 0.236s;
+  -ms-animation-delay: 0.236s;
+  -webkit-animation-delay: 0.236s;
+  -moz-animation-delay: 0.236s;
+}
+
+#ballsWaveG_2 {
+  left: 11px;
+  animation-delay: 0.2925s;
+  -o-animation-delay: 0.2925s;
+  -ms-animation-delay: 0.2925s;
+  -webkit-animation-delay: 0.2925s;
+  -moz-animation-delay: 0.2925s;
+}
+
+#ballsWaveG_3 {
+  left: 22px;
+  animation-delay: 0.349s;
+  -o-animation-delay: 0.349s;
+  -ms-animation-delay: 0.349s;
+  -webkit-animation-delay: 0.349s;
+  -moz-animation-delay: 0.349s;
+}
+
+#ballsWaveG_4 {
+  left: 34px;
+  animation-delay: 0.4055s;
+  -o-animation-delay: 0.4055s;
+  -ms-animation-delay: 0.4055s;
+  -webkit-animation-delay: 0.4055s;
+  -moz-animation-delay: 0.4055s;
+}
+
+#ballsWaveG_5 {
+  left: 45px;
+  animation-delay: 0.472s;
+  -o-animation-delay: 0.472s;
+  -ms-animation-delay: 0.472s;
+  -webkit-animation-delay: 0.472s;
+  -moz-animation-delay: 0.472s;
+}
+
+#ballsWaveG_6 {
+  left: 56px;
+  animation-delay: 0.5285s;
+  -o-animation-delay: 0.5285s;
+  -ms-animation-delay: 0.5285s;
+  -webkit-animation-delay: 0.5285s;
+  -moz-animation-delay: 0.5285s;
+}
+
+#ballsWaveG_7 {
+  left: 67px;
+  animation-delay: 0.585s;
+  -o-animation-delay: 0.585s;
+  -ms-animation-delay: 0.585s;
+  -webkit-animation-delay: 0.585s;
+  -moz-animation-delay: 0.585s;
+}
+
+#ballsWaveG_8 {
+  left: 78px;
+  animation-delay: 0.6415s;
+  -o-animation-delay: 0.6415s;
+  -ms-animation-delay: 0.6415s;
+  -webkit-animation-delay: 0.6415s;
+  -moz-animation-delay: 0.6415s;
+}
+
+@keyframes ballsWaveG {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@-o-keyframes ballsWaveG {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@-ms-keyframes ballsWaveG {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@-webkit-keyframes ballsWaveG {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@-moz-keyframes ballsWaveG {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}

@@ -1,0 +1,17 @@
+/* .slick-dots fixing bug (chosen black dot stayed black after autoplay switch) */
+.slick-dots li.slick-active button:focus:before,
+.slick-dots li button:hover:before {
+  opacity: 1;
+}
+.slick-dots li button:focus:before {
+  opacity: 0.25;
+}
+
+.WHO {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.WHO:active {
+  color: #4d4dff;
+}

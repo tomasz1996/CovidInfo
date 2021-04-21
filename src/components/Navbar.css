@@ -1,0 +1,17 @@
+/* Styled components don't allow to use gradients */
+.navBackground {
+  background: linear-gradient(
+    rgba(248, 244, 244, 1),
+    rgba(248, 244, 244, 0.98),
+    rgba(248, 244, 244, 0.92),
+    rgba(248, 244, 244, 0.89),
+    rgba(248, 244, 244, 0.8),
+    rgba(248, 244, 244, 0.7),
+    rgba(248, 244, 244, 0)
+  );
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# CovidInfo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Responsive web application presenting actual global informations based on COVID19 API (https://api.covid19api.com/).<br>
+Built using functional components with hooks.
 
-## Available Scripts
+### Features:
 
-In the project directory, you can run:
+_HOME_ - Use search bar or sorted, scrollable county list to pull data. Handling and displaying errors on the screen.<br>
+_MAP_ - &nbsp;&nbsp;&nbsp;Zoomable map allowing displaying loading animations and data after selecting country<br>
+_STATS_ - Three bar charts showing history and up to date cases by type (confimed, deaths and recovered).
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Allowing user to choose the amount of days displayed on each chart (30, 90, 180, 360).<br>
+_INFO_ - &nbsp;&nbsp;&nbsp;Image carousel with basic informations about Covid 19.
 
-### `npm start`
+### Used technologies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- _ReactJS_
+- _HTML5_
+- _CSS3_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Libraries:
 
-### `npm test`
+- Chart.js v2.9.4
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Dependencies:
 
-### `npm run build`
+- react: v17.0.1
+- react-chartjs-2: v2.11.1
+- react-dom: v17.0.1
+- react-icons: v4.2.0
+- react-router-dom: v5.2.0
+- react-scripts: v4.0.2
+- react-simple-maps: v2.3.0
+- react-slick: v0.28.1
+- react-tooltip: v4.2.17
+- slick-carousel: v1.8.1
+- styled-components: v5.2.1
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Screenshots:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### HOME
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![home1](src/screenshots/home1.png?raw=true) <br/><br/>
+![home2](src/screenshots/home2.png?raw=true) <br/><br/>
+![home_mobile](src/screenshots/home_mobile.png?raw=true) <br/><br/>
 
-### `npm run eject`
+##### MAP
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![map1](src/screenshots/home1.png?raw=true) <br/><br/>
+![map_mobile](src/screenshots/map_mobile.png?raw=true) <br/><br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##### STATS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![stats1](src/screenshots/stats1.png?raw=true) <br/><br/>
+![stats2](src/screenshots/stats2.png?raw=true) <br/><br/>
+![stats3](src/screenshots/stats3_mobile.png?raw=true) <br/><br/>
+![stats_mobile](src/screenshots/stats_mobile.png?raw=true) <br/><br/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+##### INFO
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![info1](src/screenshots/home1.png?raw=true) <br/><br/>
+![info-mobile](src/screenshots/info_mobile.png?raw=true) <br/><br/>

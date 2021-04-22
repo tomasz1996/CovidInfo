@@ -14,7 +14,7 @@ _INFO_ - &nbsp;&nbsp;&nbsp;Image carousel with basic informations about Covid 19
 
 ### Used technologies:
 
-- _ReactJS_
+- _React_
 - _HTML5_
 - _CSS3_
 

@@ -46,7 +46,7 @@ _INFO_ - &nbsp;&nbsp;&nbsp;Image carousel with basic informations about Covid 19
 
 ##### MAP
 
-![map1](src/screenshots/home1.png?raw=true) <br/><br/>
+![map1](src/screenshots/map1.png?raw=true) <br/><br/>
 ![map_mobile](src/screenshots/map_mobile.png?raw=true) <br/><br/>
 
 ##### STATS
@@ -58,5 +58,5 @@ _INFO_ - &nbsp;&nbsp;&nbsp;Image carousel with basic informations about Covid 19
 
 ##### INFO
 
-![info1](src/screenshots/home1.png?raw=true) <br/><br/>
+![info1](src/screenshots/info1.png?raw=true) <br/><br/>
 ![info-mobile](src/screenshots/info_mobile.png?raw=true) <br/><br/>
